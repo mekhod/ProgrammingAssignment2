@@ -1,9 +1,9 @@
-## Overall, this function find the inverse of an invertible matrix. If already calculated, the inverse matrix is retrieved from cach.
-## If not, it is calculated for the first time which might take time.
+## Overall, this function find the inverse of an invertible matrix. If already calculated, the inverse matrix is retrieved from cache.
+## If not, it is calculated for the first time which might take time and then is chached.
 ## 
 
-## Here, we reate a constructor function that creates a list of objective functions to be called out in the next function.
-## The invert of the matrix is also cached here.
+## Here, we create a constructor function that creates a list of objective functions to be called out in the next function.
+## The inverse of the matrix is also cached here.
 
 makeCacheMatrix <- function(x = matrix()) {
   inverse <- NULL
